@@ -31,26 +31,27 @@ const Menu = () => {
           className="navbar-collapse  clearfix"
         >
           <ul className="navigation clearfix">
-            <li className="dropdown current">
+            <li>
+              <Link href="/">Home</Link>
+            </li>
+            {/* <li className="dropdown current">
               <a href="#">Home</a>
               <ul>
                 <li>
-                  <Link href="/">Travel Agency</Link>
+                  <Link href="index3">Travel Agency</Link>
                 </li>
                 <li>
                   <Link href="index2">City Tou</Link>
                 </li>
                 <li>
-                  <Link href="index3">Tour Package</Link>
+                  <Link href="/">Tour Package</Link>
                 </li>
               </ul>
               <div className="dropdown-btn">
                 <span className="far fa-angle-down" />
               </div>
-            </li>
-            <li>
-              <Link href="about">About</Link>
-            </li>
+            </li> */}
+            {/* 
             <li className="dropdown">
               <a href="#">Tours</a>
               <ul>
@@ -73,25 +74,43 @@ const Menu = () => {
               <div className="dropdown-btn">
                 <span className="far fa-angle-down" />
               </div>
-            </li>
+            </li> */}
             <li className="dropdown">
               <a href="#">Destinations</a>
+              {/* Beaches Waterfalls Temples Trails Wildlife */}
               <ul>
                 <li>
-                  <Link href="destination1">Destination 01</Link>
+                  <Link href="beaches">Beaches</Link>
                 </li>
                 <li>
-                  <Link href="destination2">Destination 02</Link>
+                  <Link href="waterfalls">Waterfalls</Link>
+                </li>
+                <li>
+                  <Link href="temples">Temples</Link>
+                </li>
+                <li>
+                  <Link href="trails">Trails</Link>
+                </li>
+                <li>
+                  <Link href="wildlife">Wildlife</Link>
+                </li>
+
+                {/* <li>
+                  <Link href="trails">Destination 02</Link>
                 </li>
                 <li>
                   <Link href="destination-details">Destination Details</Link>
-                </li>
+                </li> */}
               </ul>
               <div className="dropdown-btn">
                 <span className="far fa-angle-down" />
               </div>
             </li>
-            <li className="dropdown">
+            <li>
+              <Link href="gellery-grid">Gallery</Link>
+            </li>
+
+            {/* <li className="dropdown">
               <a href="#">Pages</a>
               <ul>
                 <li>
@@ -138,8 +157,15 @@ const Menu = () => {
               <div className="dropdown-btn">
                 <span className="far fa-angle-down" />
               </div>
+            </li> */}
+
+            <li>
+              <Link href="blog">blog</Link>
             </li>
-            <li className="dropdown">
+            <li>
+              <Link href="about">About</Link>
+            </li>
+            {/* <li className="dropdown">
               <a href="#">blog</a>
               <ul>
                 <li>
@@ -152,7 +178,7 @@ const Menu = () => {
               <div className="dropdown-btn">
                 <span className="far fa-angle-down" />
               </div>
-            </li>
+            </li> */}
           </ul>
         </Accordion.Collapse>
       </Accordion>
@@ -233,7 +259,7 @@ const Header1 = ({ sidebarClick }) => {
                   href="contact"
                   className="theme-btn style-two bgc-secondary"
                 >
-                  <span data-hover="Book Now">Book Now</span>
+                  <span data-hover="Book Now">Contact Us</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
                 {/* menu sidbar */}
@@ -470,7 +496,7 @@ const Header2 = ({ sidebarClick }) => {
             href="contact"
             className="theme-btn style-two style-three mt-15 mb-55"
           >
-            <span data-hover="Book Now">Book Now</span>
+            <span data-hover="Book Now">Contact Us</span>
             <i className="fal fa-arrow-right" />
           </Link>
           <hr className="mb-65" />
@@ -528,7 +554,7 @@ const Header3 = ({ sidebarClick }) => {
                   href="contact"
                   className="theme-btn style-two bgc-secondary"
                 >
-                  <span data-hover="Book Now">Book Now</span>
+                  <span data-hover="Book Now">Contact Us</span>
                   <i className="fal fa-arrow-right" />
                 </Link>
                 {/* menu sidbar */}
