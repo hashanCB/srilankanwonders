@@ -75,9 +75,9 @@ const Menu = () => {
                 <span className="far fa-angle-down" />
               </div>
             </li> */}
-            <li className="dropdown">
+            {/* <li className="dropdown">
               <a href="#">Destinations</a>
-              {/* Beaches Waterfalls Temples Trails Wildlife */}
+             
               <ul>
                 <li>
                   <Link href="beaches">Beaches</Link>
@@ -95,20 +95,20 @@ const Menu = () => {
                   <Link href="wildlife">Wildlife</Link>
                 </li>
 
-                {/* <li>
+                <li>
                   <Link href="trails">Destination 02</Link>
                 </li>
                 <li>
                   <Link href="destination-details">Destination Details</Link>
-                </li> */}
+                </li>
               </ul>
               <div className="dropdown-btn">
                 <span className="far fa-angle-down" />
               </div>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <Link href="gellery-grid">Gallery</Link>
-            </li>
+            </li> */}
 
             {/* <li className="dropdown">
               <a href="#">Pages</a>

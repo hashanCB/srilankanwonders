@@ -31,13 +31,13 @@ const page = () => {
               >
                 <div className="image">
                   <img
-                    src="assets/images/destinations/destination-five1.jpg"
-                    alt="Destination"
+                    src="assets/images/destinations/Hulangala-srilanka.jpg"
+                    alt="Hulangala-srilanka"
                   />
                 </div>
                 <div className="content">
                   <h6>
-                    <Link href="destination-details">Switzerland's</Link>
+                    <Link href="destination-details">Hulangala</Link>
                   </h6>
                   <span className="tours">258 tours</span>
                 </div>

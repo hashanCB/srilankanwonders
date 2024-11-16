@@ -4,7 +4,7 @@ import Link from "next/link";
 const page = () => {
   return (
     <ReveloLayout insta>
-      <Banner pageTitle={"Blog List View"} />
+      {/* <Banner pageTitle={"Blog List View"} /> */}
       <section className="blog-list-page py-100 rel z-1">
         <div className="container">
           <div className="row">
@@ -17,7 +17,7 @@ const page = () => {
               >
                 <div className="image">
                   <img
-                    src="assets/images/blog/blog-list1.jpg"
+                    src="assets/images/destinations/sigiriya/4.jpg"
                     alt="Blog List"
                   />
                 </div>
@@ -26,9 +26,7 @@ const page = () => {
                     Travel
                   </Link>
                   <h5>
-                    <Link href="blog-details">
-                      Ultimate Guide to Planning Your Dream Vacation
-                    </Link>
+                    <Link href="blog-details">Sigiriya</Link>
                   </h5>
                   <ul className="blog-meta">
                     <li>
@@ -45,7 +43,7 @@ const page = () => {
                     travelers seeking
                   </p>
                   <Link
-                    href="blog-details"
+                    href="The-Majestic-Rock-Fortress-of-SriLanka"
                     className="theme-btn style-two style-three"
                   >
                     <span data-hover="Book Now">Read More</span>
