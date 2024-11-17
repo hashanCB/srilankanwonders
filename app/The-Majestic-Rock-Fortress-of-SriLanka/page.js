@@ -64,7 +64,7 @@ const page = () => {
                   <h4>From the Era of King Ravana to Modern Times</h4>
                 </div>
                 <h6>Introduction</h6>
-                <p className="text-justify">
+                <p className=" text-justify">
                   Sigiriya, also known as the "Lion Rock," is a UNESCO World
                   Heritage Site and one of Sri Lanka's most iconic landmarks.
                   Rising majestically 200 meters above the surrounding plains,
@@ -76,7 +76,7 @@ const page = () => {
                   status as a global attraction.
                 </p>
                 <h6>The Mythical Connection: Sigiriya and King Ravana</h6>
-                <p>
+                <p className=" text-justify">
                   The legend of King Ravana, a central figure in the Indian epic
                   Ramayana, has long been associated with Sri Lanka. According
                   to folklore, Ravana was a powerful king who ruled over a
@@ -140,7 +140,7 @@ const page = () => {
                 <h4> King Kashyapa's Masterpiece</h4>
               </div>
 
-              <p>
+              <p className=" text-justify">
                 The recorded history of Sigiriya begins in the 5th century CE
                 during the reign of King Kashyapa (477–495 CE). Kashyapa, the
                 son of King Dhatusena, seized the throne through a coup, ousting
@@ -152,7 +152,7 @@ const page = () => {
                 Sigiriya became the king's capital and an architectural
                 masterpiece. The complex included:
               </h6>
-              <ul className="list-style-two mt-30 mb-45">
+              <ul className="list-style-two mt-30 mb-45 ">
                 <li>
                   <strong>The Lion Gate:</strong> The entrance to the palace,
                   flanked by giant lion paws carved into the rock.
@@ -175,7 +175,7 @@ const page = () => {
               </ul>
 
               <h6> Sigiriya's Transformation: A Buddhist Monastery </h6>
-              <p>
+              <p className=" text-justify">
                 After Kashyapa's death, Sigiriya was abandoned as a royal
                 palace. However, it found new life as a Buddhist monastery. For
                 centuries, monks inhabited the caves and rock shelters around
@@ -185,7 +185,7 @@ const page = () => {
               </p>
 
               <h6> Rediscovery in the Colonial Era </h6>
-              <p>
+              <p className=" text-justify">
                 Sigiriya remained largely forgotten until its rediscovery during
                 the British colonial period in the 19th century. Major Jonathan
                 Forbes of the British Army documented its significance in 1831.
@@ -198,7 +198,7 @@ const page = () => {
               </p>
 
               <h6> Sigiriya in Modern Times </h6>
-              <p>
+              <p className=" text-justify">
                 Today, Sigiriya is one of Sri Lanka's most visited tourist
                 destinations, drawing travelers from around the globe. Its fame
                 as a UNESCO World Heritage Site has made it a symbol of Sri
@@ -227,7 +227,7 @@ const page = () => {
               </p>
 
               <h6> The Mystique Lives On</h6>
-              <p>
+              <p className=" text-justify">
                 From the mythical reign of King Ravana to the historical
                 brilliance of King Kashyapa, Sigiriya's story is one of
                 resilience and reinvention. Whether as a royal fortress, a

@@ -159,9 +159,9 @@ const Menu = () => {
               </div>
             </li> */}
 
-            <li>
-              <Link href="blog">blog</Link>
-            </li>
+            {/* <li>
+              <Link href="/">blog</Link>
+            </li> */}
             <li>
               <Link href="about">About</Link>
             </li>
